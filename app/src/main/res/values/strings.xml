@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Music App</string>
+    <string name="playlists">Playlists</string>
+    <string name="albums">Albums</string>
+    <string name="artist">Artists</string>
+    <string name="MainActivity">This home page will allow users to decide if they want to browse by playlist, artist, or album. The app uses the Spotify Android API to search for music. </string>
+    <string name="PlaylistText">This page will use the Spotify Android API to allow the user to create, and play playlists. It also redirects to the home page.</string>
+    <string name="ArtistText">This page will use the Spotify Android API. This screen displays artists saved by the User and redirects to the home page.</string>
+    <string name="AlbumText">This page displays albums saved by the User and redirects to the home page.</string>
+    <string name="home">Home</string>
+</resources>

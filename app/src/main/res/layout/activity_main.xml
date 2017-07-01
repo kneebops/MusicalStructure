@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.MainActivity">
+
+    <TextView
+        android:id="@+id/Playlists"
+        android:text="@string/MainActivity"
+        style="@style/ExplanatoryText"
+        android:background="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/Playlists"
+        android:text="@string/playlists"
+        style="@style/CategoriesOnMainScreen"
+        android:background="@color/category_Playlists"
+      />
+
+    <TextView
+        android:id="@+id/Artists"
+        android:text="@string/artist"
+        style="@style/CategoriesOnMainScreen"
+        android:background="@color/category_Artists"
+        />
+
+    <TextView
+        android:id="@+id/Albums"
+        android:text="@string/albums"
+        style="@style/CategoriesOnMainScreen"
+        android:background="@color/category_Albums"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicapp.AlbumsActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/AlbumsScreen"
+        android:text="@string/albums"
+        style="@style/CategoriesOnSecondScreen"
+        android:background="@color/category_Albums"
+        />
+
+    <TextView
+        android:text="@string/AlbumText"
+        style="@style/TextOnSecondScreen"
+        />
+
+    <TextView
+        android:id="@+id/HomeScreen"
+        android:text="@string/home"
+        style="@style/CategoriesOnSecondScreen"
+        android:background="@color/colorPrimary"
+        />
+</LinearLayout>
